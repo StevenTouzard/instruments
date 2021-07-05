@@ -191,6 +191,9 @@ class Instrument:
 
 
 class VisaInstrument(Instrument):
+    
+    '''This is a simple test'''
+    
     def __init__(self, name, **kwargs):
 
         self.ins = None
