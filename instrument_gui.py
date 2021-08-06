@@ -14,6 +14,8 @@ import csv
 import numpy as np
 from instrument import Instrument, VisaInstrument
 
+# basic test
+
 class Instrument_gui(object):
 
     def __init__(self, **kwargs):
